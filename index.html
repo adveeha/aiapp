@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Adveeha — Web Developer</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <meta name="description" content="Full‑stack developer building scalable web apps with React, Node/Express, and PostgreSQL.">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-grid">
+      <div class="brand">
+        <img class="avatar" src="https://via.placeholder.com/160" alt="Adveeha avatar">
+        <div>
+          <h1>Adveeha</h1>
+          <p class="tagline">Full‑stack web developer</p>
+        </div>
+      </div>
+      <nav class="social">
+        <a href="https://github.com/adveeha" target="_blank" rel="noopener">GitHub</a>
+        <!-- Add other social links here -->
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about" class="card">
+      <h2>About</h2>
+      <p>Full‑stack developer experienced in building scalable web apps with React, Node/Express, and PostgreSQL. I focus on clean code, accessible UI, and shipping features users love.</p>
+    </section>
+
+    <section id="projects" class="card">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <article class="project">
+          <h3>Project One</h3>
+          <p>Placeholder project — add a title, short description and link to the repo or demo.</p>
+          <a class="btn" href="#" aria-label="Project One">View</a>
+        </article>
+
+        <article class="project">
+          <h3>Project Two</h3>
+          <p>Placeholder project — replace with your project details.</p>
+          <a class="btn" href="#" aria-label="Project Two">View</a>
+        </article>
+
+        <article class="project">
+          <h3>Project Three</h3>
+          <p>Placeholder project — replace with your project details.</p>
+          <a class="btn" href="#" aria-label="Project Three">View</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+
+      <div class="contact-grid">
+        <div>
+          <h3>Email</h3>
+          <p><a href="mailto:adveeha@gmail.com">adveeha@gmail.com</a></p>
+
+          <h3>WhatsApp</h3>
+          <p><a href="https://wa.me/923423690847" target="_blank" rel="noopener">+92 342 3690847</a></p>
+
+          <h3>Or use the form</h3>
+          <p>Form posts to Formspree — follow README to configure your Formspree endpoint.</p>
+        </div>
+
+        <form id="contactForm" class="contact-form">
+          <!-- Replace YOUR_FORM_ID in script if you use Formspree -->
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" required>
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" required>
+          </label>
+          <label>
+            <span>Message</span>
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+          <button type="submit" class="btn">Send</button>
+
+          <p id="formMsg" class="form-msg" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Adveeha — Web Developer</p>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
